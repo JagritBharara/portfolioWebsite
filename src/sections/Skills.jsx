@@ -5,7 +5,7 @@ import {
   FaDocker,
   FaGitAlt,
 } from "react-icons/fa";
-
+import { SiCplusplus } from "react-icons/si";
 import {
   SiRubyonrails,
   SiMongodb,
@@ -15,6 +15,10 @@ import {
 } from "react-icons/si";
 
 const skills = [
+  {
+    name: "C++",
+    icon: <SiCplusplus />,
+  },
   {
     name: "React",
     icon: <FaReact />,

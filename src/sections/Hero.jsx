@@ -36,7 +36,7 @@ const Hero = () => {
 
         {/* Tech Stack */}
         <div className="flex flex-wrap justify-center gap-3 mb-10">
-          {["Ruby on Rails", "SQL", "Docker", "Node.js", "MongoDB", "React"].map(
+          {["C++", "Ruby on Rails", "SQL", "Docker", "Node.js", "MongoDB", "React"].map(
             (tech) => (
               <span
                 key={tech}
@@ -66,6 +66,16 @@ const Hero = () => {
             >
                 Contact Me
             </a>
+
+            {/* Resume Button */}
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-6 py-3 rounded-full hover:bg-white hover:text-black transition duration-300"
+          >
+            View Resume
+          </a>
 
         </div>
 
